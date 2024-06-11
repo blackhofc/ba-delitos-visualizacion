@@ -1,0 +1,139 @@
+<script>
+  import Scroller from "@sveltejs/svelte-scroller";
+  import { onMount } from "svelte";
+  import * as d3 from "d3";
+
+  import Section from "./components/Section.svelte";
+  import Header from "./components/Header.svelte";
+
+  let count;
+  let index;
+  let offset;
+  let progress;
+  let top = 0;
+  let threshold = 0;
+  let bottom = 0.9;
+
+  let sections = [
+    { color: "#FCDE69" },
+    { color: "#A2DAE2" },
+    { color: "#A6D6B4" },
+    { color: "#F8BCAD" },
+    { color: "#EE404D" },
+    { color: "#0054A8" },
+    { color: "#130F52" },
+  ];
+
+  let backgroundColor = "#000";
+
+  function updateBackgroundColor(color) {
+    console.log("updateBackgroundColor", color);
+    backgroundColor = color;
+  }
+
+  function scrollToSection(index) {
+    const sectionElement = document.querySelectorAll(".step_foreground")[index];
+    if (sectionElement) {
+      sectionElement.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+
+  onMount(() => {
+    /* d3.csv("./data/deportistas.csv", d3.autoType).then((data) => {
+      deportistas = data;
+      filteredDeportistas = deportistas;
+    }); */
+
+    scrollToSection(4);
+  });
+
+  $: {
+    console.log({ index });
+    updateBackgroundColor(sections[index]?.color || "#ffffff");
+
+    /* switch (index) {
+      case 0:
+        filteredDeportistas = deportistas;
+        break;
+      case 1:
+        filteredDeportistas = deportistas.filter((d) => d.genero === "F");
+        break;
+      case 2:
+        filteredDeportistas = deportistas.filter((d) => d.genero === "M");
+        break;
+      case 3:
+        filteredDeportistas = deportistas.filter(
+          (d) => d.continente === "América"
+        );
+        break;
+      default:
+        filteredDeportistas = deportistas; 
+    }*/
+  }
+</script>
+
+<main>
+  <Scroller
+    {top}
+    {threshold}
+    {bottom}
+    bind:count
+    bind:index
+    bind:offset
+    bind:progress
+  >
+    <div
+      slot="background"
+      class="scroller"
+      style="--background-color: {backgroundColor}"
+    ></div>
+
+    <div slot="foreground" class="foreground_container">
+      <section class="step_foreground">
+        <Header />
+      </section>
+
+      {#each sections as section}
+        <section class="step_foreground">
+          <Section />
+        </section>
+      {/each}
+    </div>
+  </Scroller>
+</main>
+
+<style>
+  :global(body) {
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+  }
+
+  .scroller {
+    transition: background-color 1s ease;
+    background-color: var(--background-color);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    overflow-x: hidden;
+  }
+
+  /* Estilos para el scroller */
+  .foreground_container {
+    pointer-events: none;
+  }
+
+  .step_foreground {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100vh;
+    border: 3px solid rgba(0, 0, 0, 1);
+    color: white;
+    margin: 0 0 2em 0;
+  }
+</style>
