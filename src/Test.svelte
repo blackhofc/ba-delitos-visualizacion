@@ -4,6 +4,7 @@
   import { onMount } from "svelte";
   import * as d3 from "d3";
 
+  import Item from "./components/Item.svelte";
   import Section from "./components/Section.svelte";
   import Header from "./components/Header.svelte";
 
@@ -19,13 +20,13 @@
   let last_prog;
 
   let sections = [
-    { color: "#FCDE69" },
-    { color: "#A2DAE2" },
-    { color: "#A6D6B4" },
-    { color: "#F8BCAD" },
-    { color: "#EE404D" },
-    { color: "#0054A8" },
-    { color: "#130F52" },
+    { title: "Section 1", color: "#FCDE69" },
+    { title: "Section 2", color: "#A2DAE2" },
+    { title: "Section 3", color: "#A6D6B4" },
+    { title: "Section 4", color: "#F8BCAD" },
+    { title: "Section 5", color: "#EE404D" },
+    { title: "Section 6", color: "#0054A8" },
+    { title: "Section 7", color: "#130F52" },
   ];
 
   let backgroundColor = "#000";
@@ -85,9 +86,18 @@
 {#if showing_sections}
   <div
     class="sections-container"
-    style="z-index: 200; bottom: 0; background-color: #000000; position: fixed; height: 80px; width: 100%"
+    style="display: flex; z-index: 200; bottom: 0; background-color: #000000; position: fixed; height: auto; width: 100%; justify-content: space-between;"
     transition:slide
-  ></div>
+  >
+    {#each sections as section, index}
+      <Item
+        onClick={() => scrollToSection(index + 1)}
+        number={index + 1}
+        title={section.title}
+        background={section.color}
+      />
+    {/each}
+  </div>
 {/if}
 
 <main>
