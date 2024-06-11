@@ -6,13 +6,11 @@
   export let background;
 </script>
 
-<main>
+<main class="item" style="background-color: {background}" on:click={onClick}>
   <!-- svelte-ignore a11y-click-events-have-key-events -->
   <!-- svelte-ignore a11y-no-static-element-interactions -->
-  <div class="item" style="background-color: {background}" on:click={onClick}>
-    <div class="text-container">{number}</div>
-    <div class="text-container">{title}</div>
-  </div>
+  <h2 class="text-container">{number}</h2>
+  <div class="text-container" style="margin-left: 8px;">{title}</div>
 </main>
 
 <style>
@@ -23,6 +21,10 @@
     cursor: pointer;
     flex: 1; /* Ajustar el tamaño de los elementos para ocupar el espacio disponible */
     margin: 0; /* Eliminar el margen entre elementos */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   .text-container {

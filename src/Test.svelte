@@ -9,6 +9,7 @@
   import Header from "./components/Header.svelte";
   import SilderTitle from "./components/SilderTitle.svelte";
   import Statistics from "./components/Statistics.svelte";
+  import CrimesByZone from "./components/CrimesByZone.svelte";
 
   let count;
   let index;
@@ -127,6 +128,10 @@
         <Statistics title={"test"} />
       </section>
 
+      <section class="step_foreground">
+        <CrimesByZone title={"teasdasddasadsadssdasadasdadsst"} />
+      </section>
+
       {#each sections as section}
         <section class="step_foreground">
           <Section title={section.title} />
@@ -163,7 +168,6 @@
 
   .step_foreground {
     display: flex;
-    justify-content: end;
     align-items: center;
     height: 100vh;
     border: 3px solid rgba(0, 0, 0, 1);

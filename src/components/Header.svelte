@@ -1,8 +1,20 @@
+<!-- Header.svelte -->
+<script>
+  import Button from './Button.svelte'
+</script>
+
 <div class="section">
+  <div class="top-container">
+    <div style="background-color: #0055aa; width: 120px; height: 80px; display: flex; padding: 8px 16px;">
+      <img src="/public/images/utdt.png" alt="UTDT" style="object-fit: contain; width: 100%; height: 100%;">
+    </div>
+    <Button/>
+  </div>
+
   <div class="middle-container">
     <h3 class="custom-sub">VISUALIZACION DE DATOS</h3>
     <h1 style="margin-top: 20px; font-size: 100px; color: #130f54">
-      DELITOS BUENOS AIRES <br /> <span>2020-2021</span>
+      DELITOS BUENOS AIRES <br /> <span>2020-2022</span>
     </h1>
   </div>
 
@@ -10,7 +22,7 @@
     <img src="/images/scroll.svg" alt="Scroll SVG" />
     <div class="text-container">
       Deslize hacia abajo para descubrir el Informe anual de los delitos en la
-      ciudad en el año 2021.
+      ciudad en el año 2022.
     </div>
   </div>
 </div>
@@ -31,6 +43,14 @@
     display: inline-block;
     background-color: #ef404e;
     padding: 4px 8px;
+  }
+
+  .top-container {
+    margin: 1% 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
   }
 
   .middle-container {
