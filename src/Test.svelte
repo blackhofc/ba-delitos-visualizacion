@@ -1,4 +1,5 @@
 <script>
+  import { slide } from "svelte/transition";
   import Scroller from "@sveltejs/svelte-scroller";
   import { onMount } from "svelte";
   import * as d3 from "d3";
@@ -14,6 +15,9 @@
   let threshold = 0;
   let bottom = 0.9;
 
+  let showing_sections = false;
+  let last_prog;
+
   let sections = [
     { color: "#FCDE69" },
     { color: "#A2DAE2" },
@@ -27,7 +31,6 @@
   let backgroundColor = "#000";
 
   function updateBackgroundColor(color) {
-    console.log("updateBackgroundColor", color);
     backgroundColor = color;
   }
 
@@ -43,12 +46,19 @@
       deportistas = data;
       filteredDeportistas = deportistas;
     }); */
-
-    scrollToSection(4);
+    // scrollToSection(4);
   });
 
   $: {
-    console.log({ index });
+    if (!last_prog || (progress < last_prog && !showing_sections)) {
+      showing_sections = true;
+    } else if (progress >= last_prog && showing_sections) {
+      showing_sections = false;
+    }
+
+    last_prog = progress;
+
+    // console.log({ index });
     updateBackgroundColor(sections[index]?.color || "#ffffff");
 
     /* switch (index) {
@@ -71,6 +81,14 @@
     }*/
   }
 </script>
+
+{#if showing_sections}
+  <div
+    class="sections-container"
+    style="z-index: 200; bottom: 0; background-color: #000000; position: fixed; height: 80px; width: 100%"
+    transition:slide
+  ></div>
+{/if}
 
 <main>
   <Scroller
