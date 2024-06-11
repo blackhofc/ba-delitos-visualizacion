@@ -1,0 +1,1470 @@
+{
+    "general": {
+        "Robo": 56334,
+        "Hurto": 54304,
+        "Vialidad": 10181,
+        "Homicidios": 89,
+        "Lesiones": 10153,
+        "Amenazas": 9857
+    },
+    "barrio": {
+        "CHACARITA": {
+            "Robo": 805,
+            "Hurto": 647,
+            "Vialidad": 148,
+            "Homicidios": 1,
+            "Lesiones": 129,
+            "Amenazas": 111
+        },
+        "BARRACAS": {
+            "Robo": 2117,
+            "Hurto": 1286,
+            "Vialidad": 203,
+            "Homicidios": 12,
+            "Amenazas": 544,
+            "Lesiones": 428
+        },
+        "RECOLETA": {
+            "Robo": 2642,
+            "Hurto": 2704,
+            "Vialidad": 325,
+            "Homicidios": 2,
+            "Lesiones": 351,
+            "Amenazas": 303
+        },
+        "PARQUE AVELLANEDA": {
+            "Robo": 879,
+            "Hurto": 840,
+            "Vialidad": 187,
+            "Amenazas": 246,
+            "Lesiones": 198
+        },
+        "NUÑEZ": {
+            "Hurto": 832,
+            "Robo": 946,
+            "Vialidad": 175,
+            "Homicidios": 1,
+            "Amenazas": 81,
+            "Lesiones": 105
+        },
+        "ALMAGRO": {
+            "Hurto": 2049,
+            "Robo": 2380,
+            "Vialidad": 212,
+            "Amenazas": 330,
+            "Lesiones": 268
+        },
+        "VILLA LURO": {
+            "Robo": 360,
+            "Hurto": 553,
+            "Vialidad": 103,
+            "Amenazas": 91,
+            "Lesiones": 61
+        },
+        "VILLA SOLDATI": {
+            "Hurto": 755,
+            "Robo": 1328,
+            "Vialidad": 142,
+            "Homicidios": 2,
+            "Lesiones": 242,
+            "Amenazas": 330
+        },
+        "VILLA REAL": {
+            "Robo": 182,
+            "Hurto": 221,
+            "Vialidad": 75,
+            "Lesiones": 45,
+            "Amenazas": 44
+        },
+        "SAN TELMO": {
+            "Hurto": 705,
+            "Robo": 872,
+            "Vialidad": 75,
+            "Homicidios": 1,
+            "Lesiones": 143,
+            "Amenazas": 119
+        },
+        "MONTE CASTRO": {
+            "Hurto": 567,
+            "Robo": 329,
+            "Vialidad": 106,
+            "Lesiones": 71,
+            "Amenazas": 97
+        },
+        "VILLA DEVOTO": {
+            "Robo": 760,
+            "Hurto": 1122,
+            "Vialidad": 242,
+            "Homicidios": 1,
+            "Lesiones": 167,
+            "Amenazas": 152
+        },
+        "VILLA GRAL. MITRE": {
+            "Robo": 417,
+            "Hurto": 518,
+            "Vialidad": 108,
+            "Amenazas": 83,
+            "Lesiones": 69
+        },
+        "VERSALLES": {
+            "Hurto": 258,
+            "Robo": 190,
+            "Vialidad": 55,
+            "Lesiones": 35,
+            "Amenazas": 60
+        },
+        "BOEDO": {
+            "Robo": 735,
+            "Hurto": 857,
+            "Vialidad": 125,
+            "Homicidios": 2,
+            "Amenazas": 135,
+            "Lesiones": 147
+        },
+        "CABALLITO": {
+            "Robo": 2366,
+            "Hurto": 2495,
+            "Vialidad": 482,
+            "Homicidios": 2,
+            "Amenazas": 348,
+            "Lesiones": 339
+        },
+        "VILLA DEL PARQUE": {
+            "Hurto": 771,
+            "Robo": 511,
+            "Vialidad": 89,
+            "Amenazas": 119,
+            "Lesiones": 83
+        },
+        "PARQUE CHACABUCO": {
+            "Robo": 1549,
+            "Hurto": 1020,
+            "Vialidad": 185,
+            "Homicidios": 4,
+            "Amenazas": 160,
+            "Lesiones": 161
+        },
+        "SAAVEDRA": {
+            "Hurto": 784,
+            "Robo": 963,
+            "Vialidad": 330,
+            "Homicidios": 1,
+            "Amenazas": 166,
+            "Lesiones": 141
+        },
+        "VILLA PUEYRREDON": {
+            "Robo": 389,
+            "Hurto": 572,
+            "Vialidad": 124,
+            "Homicidios": 2,
+            "Amenazas": 67,
+            "Lesiones": 68
+        },
+        "NULL": {
+            "Robo": 219,
+            "Hurto": 192,
+            "Vialidad": 996,
+            "Homicidios": 1,
+            "Lesiones": 531,
+            "Amenazas": 452
+        },
+        "FLORES": {
+            "Hurto": 2739,
+            "Robo": 3497,
+            "Vialidad": 471,
+            "Homicidios": 14,
+            "Amenazas": 534,
+            "Lesiones": 587
+        },
+        "NUEVA POMPEYA": {
+            "Robo": 1398,
+            "Hurto": 1026,
+            "Vialidad": 176,
+            "Homicidios": 6,
+            "Amenazas": 250,
+            "Lesiones": 236
+        },
+        "BOCA": {
+            "Robo": 1016,
+            "Hurto": 583,
+            "Vialidad": 114,
+            "Homicidios": 2,
+            "Amenazas": 280,
+            "Lesiones": 320
+        },
+        "VILLA URQUIZA": {
+            "Hurto": 1235,
+            "Robo": 936,
+            "Vialidad": 232,
+            "Homicidios": 1,
+            "Lesiones": 163,
+            "Amenazas": 218
+        },
+        "VILLA LUGANO": {
+            "Robo": 2220,
+            "Hurto": 1763,
+            "Vialidad": 297,
+            "Homicidios": 4,
+            "Amenazas": 712,
+            "Lesiones": 686
+        },
+        "VILLA RIACHUELO": {
+            "Robo": 217,
+            "Hurto": 302,
+            "Vialidad": 61,
+            "Homicidios": 2,
+            "Lesiones": 59,
+            "Amenazas": 68
+        },
+        "AGRONOMIA": {
+            "Hurto": 188,
+            "Robo": 161,
+            "Vialidad": 59,
+            "Lesiones": 24,
+            "Amenazas": 22
+        },
+        "BELGRANO": {
+            "Robo": 1691,
+            "Hurto": 1776,
+            "Vialidad": 346,
+            "Homicidios": 1,
+            "Lesiones": 207,
+            "Amenazas": 175
+        },
+        "COLEGIALES": {
+            "Hurto": 645,
+            "Robo": 759,
+            "Vialidad": 95,
+            "Lesiones": 61,
+            "Amenazas": 78
+        },
+        "PALERMO": {
+            "Robo": 4644,
+            "Hurto": 5533,
+            "Vialidad": 709,
+            "Homicidios": 2,
+            "Lesiones": 572,
+            "Amenazas": 425
+        },
+        "VILLA CRESPO": {
+            "Hurto": 1522,
+            "Robo": 1529,
+            "Vialidad": 352,
+            "Lesiones": 179,
+            "Amenazas": 241
+        },
+        "FLORESTA": {
+            "Hurto": 733,
+            "Robo": 622,
+            "Vialidad": 144,
+            "Lesiones": 124,
+            "Amenazas": 109
+        },
+        "VILLA ORTUZAR": {
+            "Robo": 234,
+            "Hurto": 261,
+            "Vialidad": 70,
+            "Amenazas": 69,
+            "Lesiones": 51
+        },
+        "CONSTITUCION": {
+            "Robo": 2206,
+            "Hurto": 1077,
+            "Vialidad": 244,
+            "Homicidios": 2,
+            "Lesiones": 622,
+            "Amenazas": 404
+        },
+        "MONSERRAT": {
+            "Robo": 1150,
+            "Hurto": 1455,
+            "Vialidad": 219,
+            "Homicidios": 3,
+            "Amenazas": 175,
+            "Lesiones": 254
+        },
+        "BALVANERA": {
+            "Hurto": 3735,
+            "Robo": 4041,
+            "Vialidad": 548,
+            "Homicidios": 3,
+            "Amenazas": 497,
+            "Lesiones": 602
+        },
+        "PARQUE PATRICIOS": {
+            "Robo": 919,
+            "Hurto": 771,
+            "Vialidad": 121,
+            "Homicidios": 3,
+            "Lesiones": 199,
+            "Amenazas": 180
+        },
+        "PUERTO MADERO": {
+            "Robo": 139,
+            "Hurto": 236,
+            "Vialidad": 44,
+            "Amenazas": 41,
+            "Lesiones": 47
+        },
+        "SAN CRISTOBAL": {
+            "Robo": 1102,
+            "Hurto": 761,
+            "Vialidad": 196,
+            "Homicidios": 1,
+            "Lesiones": 178,
+            "Amenazas": 150
+        },
+        "RETIRO": {
+            "Robo": 1837,
+            "Hurto": 1086,
+            "Vialidad": 181,
+            "Homicidios": 7,
+            "Lesiones": 302,
+            "Amenazas": 224
+        },
+        "PATERNAL": {
+            "Hurto": 277,
+            "Robo": 360,
+            "Vialidad": 74,
+            "Homicidios": 1,
+            "Lesiones": 81,
+            "Amenazas": 76
+        },
+        "LINIERS": {
+            "Hurto": 1059,
+            "Robo": 854,
+            "Vialidad": 208,
+            "Homicidios": 1,
+            "Lesiones": 177,
+            "Amenazas": 146
+        },
+        "COGHLAN": {
+            "Robo": 212,
+            "Hurto": 221,
+            "Vialidad": 46,
+            "Amenazas": 34,
+            "Lesiones": 44
+        },
+        "PARQUE CHAS": {
+            "Hurto": 278,
+            "Robo": 148,
+            "Vialidad": 53,
+            "Homicidios": 1,
+            "Amenazas": 39,
+            "Lesiones": 31
+        },
+        "SAN NICOLAS": {
+            "Hurto": 2753,
+            "Robo": 1644,
+            "Vialidad": 185,
+            "Homicidios": 2,
+            "Lesiones": 252,
+            "Amenazas": 222
+        },
+        "MATADEROS": {
+            "Hurto": 1497,
+            "Robo": 1109,
+            "Vialidad": 234,
+            "Homicidios": 1,
+            "Lesiones": 185,
+            "Amenazas": 238
+        },
+        "VILLA SANTA RITA": {
+            "Hurto": 520,
+            "Robo": 357,
+            "Vialidad": 108,
+            "Lesiones": 49,
+            "Amenazas": 73
+        },
+        "VELEZ SARSFIELD": {
+            "Hurto": 524,
+            "Robo": 393,
+            "Vialidad": 107,
+            "Amenazas": 139,
+            "Lesiones": 79
+        }
+    },
+    "mes": {
+        "OCTUBRE": {
+            "Robo": 5348,
+            "Hurto": 5250,
+            "Vialidad": 922,
+            "Homicidios": 10,
+            "Lesiones": 792,
+            "Amenazas": 796
+        },
+        "NOVIEMBRE": {
+            "Robo": 5025,
+            "Hurto": 5405,
+            "Vialidad": 904,
+            "Homicidios": 9,
+            "Lesiones": 837,
+            "Amenazas": 798
+        },
+        "MAYO": {
+            "Robo": 4513,
+            "Hurto": 4085,
+            "Vialidad": 893,
+            "Homicidios": 7,
+            "Lesiones": 826,
+            "Amenazas": 867
+        },
+        "AGOSTO": {
+            "Robo": 4967,
+            "Hurto": 4797,
+            "Vialidad": 890,
+            "Homicidios": 3,
+            "Lesiones": 724,
+            "Amenazas": 799
+        },
+        "ENERO": {
+            "Hurto": 3440,
+            "Robo": 3970,
+            "Vialidad": 586,
+            "Homicidios": 8,
+            "Lesiones": 1010,
+            "Amenazas": 866
+        },
+        "SEPTIEMBRE": {
+            "Robo": 5004,
+            "Hurto": 4762,
+            "Vialidad": 975,
+            "Homicidios": 11,
+            "Lesiones": 711,
+            "Amenazas": 834
+        },
+        "DICIEMBRE": {
+            "Hurto": 5853,
+            "Robo": 4909,
+            "Vialidad": 862,
+            "Homicidios": 10,
+            "Lesiones": 906,
+            "Amenazas": 815
+        },
+        "MARZO": {
+            "Robo": 4730,
+            "Hurto": 4217,
+            "Vialidad": 876,
+            "Homicidios": 7,
+            "Lesiones": 1161,
+            "Amenazas": 994
+        },
+        "FEBRERO": {
+            "Robo": 4112,
+            "Hurto": 3423,
+            "Vialidad": 652,
+            "Homicidios": 3,
+            "Lesiones": 941,
+            "Amenazas": 846
+        },
+        "JUNIO": {
+            "Hurto": 4273,
+            "Robo": 4299,
+            "Vialidad": 879,
+            "Homicidios": 5,
+            "Lesiones": 622,
+            "Amenazas": 674
+        },
+        "ABRIL": {
+            "Hurto": 4186,
+            "Robo": 4476,
+            "Vialidad": 923,
+            "Homicidios": 6,
+            "Lesiones": 951,
+            "Amenazas": 870
+        },
+        "JULIO": {
+            "Robo": 4981,
+            "Hurto": 4613,
+            "Vialidad": 819,
+            "Homicidios": 10,
+            "Lesiones": 672,
+            "Amenazas": 698
+        }
+    },
+    "dia": {
+        "VIERNES": {
+            "Robo": 8463,
+            "Hurto": 8317,
+            "Vialidad": 1674,
+            "Homicidios": 11,
+            "Lesiones": 1434,
+            "Amenazas": 1475
+        },
+        "JUEVES": {
+            "Robo": 8191,
+            "Hurto": 8032,
+            "Vialidad": 1553,
+            "Homicidios": 13,
+            "Lesiones": 1411,
+            "Amenazas": 1568
+        },
+        "MARTES": {
+            "Robo": 8251,
+            "Hurto": 8138,
+            "Vialidad": 1576,
+            "Homicidios": 9,
+            "Lesiones": 1389,
+            "Amenazas": 1507
+        },
+        "LUNES": {
+            "Robo": 8131,
+            "Hurto": 7605,
+            "Vialidad": 1557,
+            "Homicidios": 9,
+            "Lesiones": 1528,
+            "Amenazas": 1564
+        },
+        "MIERCOLES": {
+            "Robo": 8164,
+            "Hurto": 7842,
+            "Vialidad": 1619,
+            "Homicidios": 13,
+            "Lesiones": 1455,
+            "Amenazas": 1555
+        },
+        "DOMINGO": {
+            "Hurto": 6318,
+            "Robo": 7236,
+            "Vialidad": 946,
+            "Homicidios": 16,
+            "Lesiones": 1446,
+            "Amenazas": 1071
+        },
+        "SABADO": {
+            "Hurto": 8052,
+            "Robo": 7898,
+            "Vialidad": 1256,
+            "Homicidios": 18,
+            "Lesiones": 1490,
+            "Amenazas": 1117
+        }
+    },
+    "mes_dia": {
+        "OCTUBRE": {
+            "VIERNES": {
+                "Robo": 753,
+                "Hurto": 742,
+                "Vialidad": 128,
+                "Homicidios": 1,
+                "Lesiones": 116,
+                "Amenazas": 121
+            },
+            "JUEVES": {
+                "Robo": 715,
+                "Hurto": 769,
+                "Vialidad": 151,
+                "Homicidios": 2,
+                "Lesiones": 110,
+                "Amenazas": 116
+            },
+            "MARTES": {
+                "Robo": 703,
+                "Hurto": 679,
+                "Vialidad": 145,
+                "Homicidios": 1,
+                "Lesiones": 98,
+                "Amenazas": 106
+            },
+            "MIERCOLES": {
+                "Robo": 697,
+                "Hurto": 694,
+                "Vialidad": 122,
+                "Homicidios": 3,
+                "Lesiones": 105,
+                "Amenazas": 122
+            },
+            "LUNES": {
+                "Hurto": 812,
+                "Robo": 851,
+                "Vialidad": 170,
+                "Homicidios": 1,
+                "Lesiones": 131,
+                "Amenazas": 149
+            },
+            "SABADO": {
+                "Hurto": 894,
+                "Robo": 870,
+                "Vialidad": 130,
+                "Homicidios": 1,
+                "Lesiones": 112,
+                "Amenazas": 86
+            },
+            "DOMINGO": {
+                "Robo": 759,
+                "Hurto": 660,
+                "Vialidad": 76,
+                "Homicidios": 1,
+                "Lesiones": 120,
+                "Amenazas": 96
+            }
+        },
+        "NOVIEMBRE": {
+            "MARTES": {
+                "Robo": 834,
+                "Hurto": 900,
+                "Vialidad": 156,
+                "Homicidios": 1,
+                "Lesiones": 137,
+                "Amenazas": 143
+            },
+            "LUNES": {
+                "Robo": 668,
+                "Hurto": 666,
+                "Vialidad": 127,
+                "Lesiones": 118,
+                "Amenazas": 107
+            },
+            "MIERCOLES": {
+                "Robo": 856,
+                "Hurto": 901,
+                "Vialidad": 175,
+                "Homicidios": 2,
+                "Lesiones": 135,
+                "Amenazas": 170
+            },
+            "JUEVES": {
+                "Hurto": 743,
+                "Robo": 669,
+                "Vialidad": 132,
+                "Homicidios": 2,
+                "Lesiones": 109,
+                "Amenazas": 115
+            },
+            "VIERNES": {
+                "Robo": 679,
+                "Hurto": 793,
+                "Vialidad": 157,
+                "Homicidios": 1,
+                "Lesiones": 112,
+                "Amenazas": 101
+            },
+            "DOMINGO": {
+                "Hurto": 531,
+                "Robo": 607,
+                "Vialidad": 63,
+                "Homicidios": 3,
+                "Lesiones": 112,
+                "Amenazas": 81
+            },
+            "SABADO": {
+                "Robo": 712,
+                "Hurto": 871,
+                "Vialidad": 94,
+                "Lesiones": 114,
+                "Amenazas": 81
+            }
+        },
+        "MAYO": {
+            "MARTES": {
+                "Robo": 725,
+                "Hurto": 681,
+                "Vialidad": 161,
+                "Homicidios": 1,
+                "Lesiones": 125,
+                "Amenazas": 167
+            },
+            "LUNES": {
+                "Hurto": 671,
+                "Robo": 757,
+                "Vialidad": 164,
+                "Lesiones": 142,
+                "Amenazas": 184
+            },
+            "JUEVES": {
+                "Robo": 590,
+                "Hurto": 561,
+                "Vialidad": 136,
+                "Homicidios": 1,
+                "Lesiones": 100,
+                "Amenazas": 120
+            },
+            "SABADO": {
+                "Robo": 553,
+                "Hurto": 586,
+                "Vialidad": 96,
+                "Homicidios": 1,
+                "Lesiones": 104,
+                "Amenazas": 81
+            },
+            "VIERNES": {
+                "Robo": 657,
+                "Hurto": 579,
+                "Vialidad": 145,
+                "Homicidios": 1,
+                "Lesiones": 104,
+                "Amenazas": 116
+            },
+            "DOMINGO": {
+                "Robo": 714,
+                "Hurto": 570,
+                "Vialidad": 108,
+                "Homicidios": 3,
+                "Lesiones": 143,
+                "Amenazas": 96
+            },
+            "MIERCOLES": {
+                "Robo": 517,
+                "Hurto": 437,
+                "Vialidad": 83,
+                "Lesiones": 108,
+                "Amenazas": 103
+            }
+        },
+        "AGOSTO": {
+            "LUNES": {
+                "Robo": 765,
+                "Hurto": 759,
+                "Vialidad": 129,
+                "Homicidios": 1,
+                "Lesiones": 117,
+                "Amenazas": 137
+            },
+            "DOMINGO": {
+                "Robo": 580,
+                "Hurto": 510,
+                "Vialidad": 76,
+                "Homicidios": 1,
+                "Lesiones": 87,
+                "Amenazas": 65
+            },
+            "JUEVES": {
+                "Robo": 676,
+                "Hurto": 624,
+                "Vialidad": 131,
+                "Homicidios": 1,
+                "Lesiones": 98,
+                "Amenazas": 111
+            },
+            "VIERNES": {
+                "Robo": 689,
+                "Hurto": 726,
+                "Vialidad": 144,
+                "Lesiones": 89,
+                "Amenazas": 117
+            },
+            "MARTES": {
+                "Robo": 873,
+                "Hurto": 758,
+                "Vialidad": 160,
+                "Lesiones": 127,
+                "Amenazas": 141
+            },
+            "MIERCOLES": {
+                "Hurto": 777,
+                "Robo": 771,
+                "Vialidad": 156,
+                "Lesiones": 109,
+                "Amenazas": 147
+            },
+            "SABADO": {
+                "Hurto": 643,
+                "Robo": 613,
+                "Vialidad": 94,
+                "Lesiones": 97,
+                "Amenazas": 81
+            }
+        },
+        "ENERO": {
+            "JUEVES": {
+                "Hurto": 454,
+                "Robo": 525,
+                "Vialidad": 78,
+                "Lesiones": 110,
+                "Amenazas": 122
+            },
+            "VIERNES": {
+                "Robo": 550,
+                "Hurto": 479,
+                "Vialidad": 94,
+                "Homicidios": 1,
+                "Lesiones": 137,
+                "Amenazas": 120
+            },
+            "MIERCOLES": {
+                "Hurto": 527,
+                "Robo": 564,
+                "Vialidad": 70,
+                "Homicidios": 1,
+                "Lesiones": 120,
+                "Amenazas": 109
+            },
+            "LUNES": {
+                "Robo": 683,
+                "Hurto": 627,
+                "Vialidad": 121,
+                "Homicidios": 1,
+                "Lesiones": 179,
+                "Amenazas": 158
+            },
+            "MARTES": {
+                "Hurto": 488,
+                "Robo": 539,
+                "Vialidad": 71,
+                "Homicidios": 2,
+                "Lesiones": 123,
+                "Amenazas": 109
+            },
+            "DOMINGO": {
+                "Robo": 546,
+                "Hurto": 426,
+                "Vialidad": 68,
+                "Lesiones": 161,
+                "Amenazas": 133
+            },
+            "SABADO": {
+                "Hurto": 439,
+                "Robo": 563,
+                "Vialidad": 84,
+                "Homicidios": 3,
+                "Lesiones": 180,
+                "Amenazas": 115
+            }
+        },
+        "SEPTIEMBRE": {
+            "MIERCOLES": {
+                "Robo": 643,
+                "Hurto": 658,
+                "Vialidad": 168,
+                "Homicidios": 1,
+                "Lesiones": 93,
+                "Amenazas": 117
+            },
+            "JUEVES": {
+                "Robo": 828,
+                "Hurto": 834,
+                "Vialidad": 147,
+                "Homicidios": 1,
+                "Lesiones": 119,
+                "Amenazas": 150
+            },
+            "LUNES": {
+                "Hurto": 574,
+                "Robo": 675,
+                "Vialidad": 138,
+                "Homicidios": 2,
+                "Lesiones": 122,
+                "Amenazas": 123
+            },
+            "VIERNES": {
+                "Robo": 908,
+                "Hurto": 837,
+                "Vialidad": 185,
+                "Homicidios": 3,
+                "Lesiones": 103,
+                "Amenazas": 145
+            },
+            "MARTES": {
+                "Hurto": 656,
+                "Robo": 653,
+                "Vialidad": 144,
+                "Homicidios": 2,
+                "Lesiones": 86,
+                "Amenazas": 113
+            },
+            "SABADO": {
+                "Hurto": 678,
+                "Robo": 679,
+                "Vialidad": 106,
+                "Homicidios": 2,
+                "Lesiones": 99,
+                "Amenazas": 100
+            },
+            "DOMINGO": {
+                "Hurto": 525,
+                "Robo": 618,
+                "Vialidad": 87,
+                "Lesiones": 89,
+                "Amenazas": 86
+            }
+        },
+        "DICIEMBRE": {
+            "MARTES": {
+                "Hurto": 962,
+                "Robo": 636,
+                "Vialidad": 139,
+                "Lesiones": 121,
+                "Amenazas": 104
+            },
+            "VIERNES": {
+                "Robo": 808,
+                "Hurto": 944,
+                "Vialidad": 147,
+                "Lesiones": 131,
+                "Amenazas": 151
+            },
+            "MIERCOLES": {
+                "Robo": 698,
+                "Hurto": 744,
+                "Vialidad": 122,
+                "Homicidios": 1,
+                "Lesiones": 121,
+                "Amenazas": 129
+            },
+            "JUEVES": {
+                "Hurto": 903,
+                "Robo": 780,
+                "Vialidad": 150,
+                "Homicidios": 2,
+                "Lesiones": 147,
+                "Amenazas": 158
+            },
+            "LUNES": {
+                "Hurto": 720,
+                "Robo": 674,
+                "Vialidad": 138,
+                "Homicidios": 2,
+                "Lesiones": 135,
+                "Amenazas": 123
+            },
+            "SABADO": {
+                "Robo": 668,
+                "Hurto": 793,
+                "Vialidad": 99,
+                "Homicidios": 3,
+                "Lesiones": 133,
+                "Amenazas": 80
+            },
+            "DOMINGO": {
+                "Robo": 645,
+                "Hurto": 787,
+                "Vialidad": 67,
+                "Homicidios": 2,
+                "Lesiones": 118,
+                "Amenazas": 70
+            }
+        },
+        "MARZO": {
+            "LUNES": {
+                "Robo": 630,
+                "Hurto": 567,
+                "Vialidad": 127,
+                "Lesiones": 157,
+                "Amenazas": 132
+            },
+            "MIERCOLES": {
+                "Robo": 780,
+                "Hurto": 690,
+                "Vialidad": 160,
+                "Homicidios": 2,
+                "Lesiones": 198,
+                "Amenazas": 178
+            },
+            "VIERNES": {
+                "Hurto": 561,
+                "Robo": 631,
+                "Vialidad": 119,
+                "Lesiones": 136,
+                "Amenazas": 127
+            },
+            "MARTES": {
+                "Robo": 780,
+                "Hurto": 702,
+                "Vialidad": 127,
+                "Lesiones": 163,
+                "Amenazas": 173
+            },
+            "SABADO": {
+                "Hurto": 546,
+                "Robo": 592,
+                "Vialidad": 108,
+                "Homicidios": 1,
+                "Lesiones": 142,
+                "Amenazas": 106
+            },
+            "JUEVES": {
+                "Hurto": 711,
+                "Robo": 751,
+                "Vialidad": 144,
+                "Homicidios": 3,
+                "Lesiones": 179,
+                "Amenazas": 180
+            },
+            "DOMINGO": {
+                "Hurto": 440,
+                "Robo": 566,
+                "Vialidad": 91,
+                "Homicidios": 1,
+                "Lesiones": 186,
+                "Amenazas": 98
+            }
+        },
+        "FEBRERO": {
+            "LUNES": {
+                "Robo": 590,
+                "Hurto": 475,
+                "Vialidad": 106,
+                "Homicidios": 1,
+                "Lesiones": 132,
+                "Amenazas": 119
+            },
+            "MARTES": {
+                "Robo": 635,
+                "Hurto": 525,
+                "Vialidad": 115,
+                "Lesiones": 121,
+                "Amenazas": 124
+            },
+            "MIERCOLES": {
+                "Robo": 625,
+                "Hurto": 524,
+                "Vialidad": 112,
+                "Lesiones": 144,
+                "Amenazas": 122
+            },
+            "VIERNES": {
+                "Robo": 603,
+                "Hurto": 567,
+                "Vialidad": 114,
+                "Homicidios": 1,
+                "Lesiones": 138,
+                "Amenazas": 161
+            },
+            "SABADO": {
+                "Robo": 532,
+                "Hurto": 453,
+                "Vialidad": 72,
+                "Lesiones": 151,
+                "Amenazas": 101
+            },
+            "DOMINGO": {
+                "Hurto": 367,
+                "Robo": 517,
+                "Vialidad": 59,
+                "Homicidios": 1,
+                "Lesiones": 134,
+                "Amenazas": 96
+            },
+            "JUEVES": {
+                "Robo": 610,
+                "Hurto": 512,
+                "Vialidad": 74,
+                "Lesiones": 121,
+                "Amenazas": 123
+            }
+        },
+        "JUNIO": {
+            "DOMINGO": {
+                "Hurto": 408,
+                "Robo": 463,
+                "Vialidad": 69,
+                "Homicidios": 2,
+                "Lesiones": 73,
+                "Amenazas": 70
+            },
+            "JUEVES": {
+                "Hurto": 731,
+                "Robo": 748,
+                "Vialidad": 156,
+                "Lesiones": 110,
+                "Amenazas": 128
+            },
+            "MIERCOLES": {
+                "Robo": 758,
+                "Hurto": 719,
+                "Vialidad": 179,
+                "Homicidios": 1,
+                "Lesiones": 102,
+                "Amenazas": 120
+            },
+            "MARTES": {
+                "Robo": 607,
+                "Hurto": 632,
+                "Vialidad": 126,
+                "Lesiones": 89,
+                "Amenazas": 106
+            },
+            "LUNES": {
+                "Robo": 621,
+                "Hurto": 542,
+                "Vialidad": 112,
+                "Lesiones": 83,
+                "Amenazas": 94
+            },
+            "SABADO": {
+                "Robo": 514,
+                "Hurto": 634,
+                "Vialidad": 111,
+                "Homicidios": 1,
+                "Lesiones": 86,
+                "Amenazas": 75
+            },
+            "VIERNES": {
+                "Robo": 588,
+                "Hurto": 607,
+                "Vialidad": 126,
+                "Homicidios": 1,
+                "Amenazas": 81,
+                "Lesiones": 79
+            }
+        },
+        "ABRIL": {
+            "LUNES": {
+                "Hurto": 644,
+                "Robo": 654,
+                "Vialidad": 127,
+                "Lesiones": 133,
+                "Amenazas": 146
+            },
+            "MIERCOLES": {
+                "Hurto": 570,
+                "Robo": 596,
+                "Vialidad": 153,
+                "Lesiones": 117,
+                "Amenazas": 137
+            },
+            "JUEVES": {
+                "Robo": 628,
+                "Hurto": 537,
+                "Vialidad": 129,
+                "Lesiones": 128,
+                "Amenazas": 146
+            },
+            "DOMINGO": {
+                "Hurto": 468,
+                "Robo": 481,
+                "Vialidad": 94,
+                "Homicidios": 1,
+                "Lesiones": 126,
+                "Amenazas": 84
+            },
+            "VIERNES": {
+                "Robo": 723,
+                "Hurto": 642,
+                "Vialidad": 155,
+                "Homicidios": 1,
+                "Lesiones": 173,
+                "Amenazas": 128
+            },
+            "MARTES": {
+                "Robo": 627,
+                "Hurto": 579,
+                "Vialidad": 117,
+                "Lesiones": 117,
+                "Amenazas": 105
+            },
+            "SABADO": {
+                "Hurto": 746,
+                "Robo": 767,
+                "Vialidad": 148,
+                "Homicidios": 4,
+                "Lesiones": 157,
+                "Amenazas": 124
+            }
+        },
+        "JULIO": {
+            "LUNES": {
+                "Robo": 563,
+                "Hurto": 548,
+                "Vialidad": 98,
+                "Homicidios": 1,
+                "Lesiones": 79,
+                "Amenazas": 92
+            },
+            "SABADO": {
+                "Hurto": 769,
+                "Robo": 835,
+                "Vialidad": 114,
+                "Homicidios": 2,
+                "Lesiones": 115,
+                "Amenazas": 87
+            },
+            "JUEVES": {
+                "Robo": 671,
+                "Hurto": 653,
+                "Vialidad": 125,
+                "Homicidios": 1,
+                "Lesiones": 80,
+                "Amenazas": 99
+            },
+            "MARTES": {
+                "Robo": 639,
+                "Hurto": 576,
+                "Vialidad": 115,
+                "Homicidios": 2,
+                "Lesiones": 82,
+                "Amenazas": 116
+            },
+            "VIERNES": {
+                "Robo": 874,
+                "Hurto": 840,
+                "Vialidad": 160,
+                "Homicidios": 1,
+                "Lesiones": 116,
+                "Amenazas": 107
+            },
+            "DOMINGO": {
+                "Robo": 740,
+                "Hurto": 626,
+                "Vialidad": 88,
+                "Homicidios": 1,
+                "Lesiones": 97,
+                "Amenazas": 96
+            },
+            "MIERCOLES": {
+                "Robo": 659,
+                "Hurto": 601,
+                "Vialidad": 119,
+                "Homicidios": 2,
+                "Lesiones": 103,
+                "Amenazas": 101
+            }
+        }
+    },
+    "modo": {
+        "armado": 7580,
+        "motorizado": 3978,
+        "ambos": 1086,
+        "ninguno": 128274
+    },
+    "fecha": {
+        "14": {
+            "Robo": 3701,
+            "Hurto": 3797,
+            "Vialidad": 709,
+            "Homicidios": 3,
+            "Lesiones": 757,
+            "Amenazas": 681
+        },
+        "27": {
+            "Robo": 3815,
+            "Hurto": 3593,
+            "Vialidad": 663,
+            "Homicidios": 1,
+            "Lesiones": 713,
+            "Amenazas": 621
+        },
+        "29": {
+            "Robo": 3483,
+            "Hurto": 3471,
+            "Vialidad": 637,
+            "Homicidios": 3,
+            "Lesiones": 603,
+            "Amenazas": 581
+        },
+        "28": {
+            "Robo": 3907,
+            "Hurto": 3557,
+            "Vialidad": 675,
+            "Homicidios": 5,
+            "Lesiones": 631,
+            "Amenazas": 669
+        },
+        "30": {
+            "Robo": 3413,
+            "Hurto": 3349,
+            "Vialidad": 597,
+            "Homicidios": 1,
+            "Lesiones": 601,
+            "Amenazas": 573
+        },
+        "17": {
+            "Robo": 3573,
+            "Hurto": 3405,
+            "Vialidad": 559,
+            "Homicidios": 11,
+            "Lesiones": 695,
+            "Amenazas": 699
+        },
+        "8": {
+            "Robo": 3713,
+            "Hurto": 3609,
+            "Vialidad": 675,
+            "Homicidios": 3,
+            "Lesiones": 653,
+            "Amenazas": 599
+        },
+        "13": {
+            "Hurto": 3445,
+            "Robo": 3735,
+            "Vialidad": 665,
+            "Homicidios": 7,
+            "Lesiones": 699,
+            "Amenazas": 647
+        },
+        "25": {
+            "Robo": 3657,
+            "Hurto": 3423,
+            "Vialidad": 615,
+            "Homicidios": 3,
+            "Lesiones": 645,
+            "Amenazas": 669
+        },
+        "26": {
+            "Robo": 3795,
+            "Hurto": 3657,
+            "Vialidad": 593,
+            "Homicidios": 7,
+            "Lesiones": 743,
+            "Amenazas": 681
+        },
+        "7": {
+            "Hurto": 3549,
+            "Robo": 3615,
+            "Vialidad": 753,
+            "Homicidios": 3,
+            "Lesiones": 717,
+            "Amenazas": 663
+        },
+        "6": {
+            "Hurto": 3467,
+            "Robo": 3481,
+            "Vialidad": 755,
+            "Homicidios": 7,
+            "Lesiones": 669,
+            "Amenazas": 631
+        },
+        "21": {
+            "Hurto": 3591,
+            "Robo": 3915,
+            "Vialidad": 707,
+            "Homicidios": 1,
+            "Lesiones": 615,
+            "Amenazas": 667
+        },
+        "15": {
+            "Robo": 3615,
+            "Hurto": 3425,
+            "Vialidad": 663,
+            "Homicidios": 7,
+            "Lesiones": 663,
+            "Amenazas": 607
+        },
+        "19": {
+            "Hurto": 3451,
+            "Robo": 3623,
+            "Vialidad": 641,
+            "Homicidios": 13,
+            "Lesiones": 667,
+            "Amenazas": 585
+        },
+        "18": {
+            "Hurto": 3983,
+            "Robo": 3737,
+            "Vialidad": 655,
+            "Homicidios": 1,
+            "Lesiones": 657,
+            "Amenazas": 619
+        },
+        "2": {
+            "Hurto": 3557,
+            "Robo": 3819,
+            "Vialidad": 703,
+            "Homicidios": 7,
+            "Lesiones": 671,
+            "Amenazas": 653
+        },
+        "16": {
+            "Robo": 3867,
+            "Hurto": 3417,
+            "Vialidad": 667,
+            "Homicidios": 3,
+            "Lesiones": 701,
+            "Amenazas": 759
+        },
+        "9": {
+            "Hurto": 3315,
+            "Robo": 3649,
+            "Vialidad": 649,
+            "Homicidios": 3,
+            "Lesiones": 625,
+            "Amenazas": 631
+        },
+        "3": {
+            "Robo": 3601,
+            "Hurto": 3685,
+            "Vialidad": 679,
+            "Homicidios": 7,
+            "Lesiones": 625,
+            "Amenazas": 607
+        },
+        "23": {
+            "Hurto": 3671,
+            "Robo": 3771,
+            "Vialidad": 709,
+            "Homicidios": 9,
+            "Lesiones": 683,
+            "Amenazas": 697
+        },
+        "4": {
+            "Robo": 3545,
+            "Hurto": 3567,
+            "Vialidad": 663,
+            "Homicidios": 3,
+            "Lesiones": 637,
+            "Amenazas": 621
+        },
+        "1": {
+            "Robo": 3731,
+            "Hurto": 3381,
+            "Vialidad": 615,
+            "Homicidios": 3,
+            "Lesiones": 699,
+            "Amenazas": 653
+        },
+        "12": {
+            "Hurto": 3607,
+            "Robo": 3733,
+            "Vialidad": 729,
+            "Homicidios": 1,
+            "Lesiones": 645,
+            "Amenazas": 653
+        },
+        "5": {
+            "Robo": 3753,
+            "Hurto": 3751,
+            "Vialidad": 679,
+            "Homicidios": 3,
+            "Lesiones": 641,
+            "Amenazas": 663
+        },
+        "10": {
+            "Robo": 3619,
+            "Hurto": 3387,
+            "Vialidad": 683,
+            "Homicidios": 3,
+            "Lesiones": 687,
+            "Amenazas": 625
+        },
+        "11": {
+            "Robo": 3741,
+            "Hurto": 3597,
+            "Vialidad": 683,
+            "Homicidios": 9,
+            "Lesiones": 693,
+            "Amenazas": 661
+        },
+        "20": {
+            "Hurto": 3719,
+            "Robo": 3695,
+            "Vialidad": 609,
+            "Homicidios": 5,
+            "Lesiones": 641,
+            "Amenazas": 615
+        },
+        "22": {
+            "Hurto": 3563,
+            "Robo": 3701,
+            "Vialidad": 685,
+            "Homicidios": 9,
+            "Lesiones": 637,
+            "Amenazas": 629
+        },
+        "24": {
+            "Robo": 3585,
+            "Hurto": 3523,
+            "Vialidad": 639,
+            "Homicidios": 5,
+            "Lesiones": 561,
+            "Amenazas": 639
+        },
+        "31": {
+            "Robo": 2049,
+            "Hurto": 2065,
+            "Vialidad": 377,
+            "Homicidios": 1,
+            "Lesiones": 401,
+            "Amenazas": 385
+        }
+    }
+}

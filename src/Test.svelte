@@ -7,6 +7,7 @@
   import Item from "./components/Item.svelte";
   import Section from "./components/Section.svelte";
   import Header from "./components/Header.svelte";
+  import SilderTitle from "./components/SilderTitle.svelte";
 
   let count;
   let index;
@@ -20,13 +21,13 @@
   let last_prog;
 
   let sections = [
-    { title: "Section 1", color: "#FCDE69" },
-    { title: "Section 2", color: "#A2DAE2" },
-    { title: "Section 3", color: "#A6D6B4" },
-    { title: "Section 4", color: "#F8BCAD" },
-    { title: "Section 5", color: "#EE404D" },
-    { title: "Section 6", color: "#0054A8" },
-    { title: "Section 7", color: "#130F52" },
+    { title: "Estadísticas", color: "#FCDE69", pos: 0 },
+    { title: "Barrios Calientes", color: "#A2DAE2", pos: 0 },
+    { title: "Delitos Por Barrio", color: "#A6D6B4", pos: 0 },
+    { title: "Distribución Temporal", color: "#F8BCAD", pos: 0 },
+    { title: "Tasa de Mortalidad", color: "#EE404D", pos: 0 },
+    { title: "Zonas Seguras", color: "#0054A8", pos: 0 },
+    { title: "Conclusiones", color: "#130F52", pos: 0 },
   ];
 
   let backgroundColor = "#000";
@@ -123,7 +124,7 @@
 
       {#each sections as section}
         <section class="step_foreground">
-          <Section />
+          <Section title={section.title} />
         </section>
       {/each}
     </div>
