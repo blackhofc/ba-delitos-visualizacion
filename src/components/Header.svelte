@@ -6,7 +6,7 @@
 <div class="section">
   <div class="top-container">
     <div style="background-color: #0055aa; width: 120px; height: 80px; display: flex; padding: 8px 16px;">
-      <img src="/public/images/utdt.png" alt="UTDT" style="object-fit: contain; width: 100%; height: 100%;">
+      <img src="/images/utdt.png" alt="UTDT" style="object-fit: contain; width: 100%; height: 100%;">
     </div>
     <Button/>
   </div>
