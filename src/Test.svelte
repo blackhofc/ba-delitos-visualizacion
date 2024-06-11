@@ -8,6 +8,7 @@
   import Section from "./components/Section.svelte";
   import Header from "./components/Header.svelte";
   import SilderTitle from "./components/SilderTitle.svelte";
+  import Statistics from "./components/Statistics.svelte";
 
   let count;
   let index;
@@ -120,6 +121,10 @@
     <div slot="foreground" class="foreground_container">
       <section class="step_foreground">
         <Header />
+      </section>
+
+      <section class="step_foreground">
+        <Statistics title={"test"} />
       </section>
 
       {#each sections as section}
