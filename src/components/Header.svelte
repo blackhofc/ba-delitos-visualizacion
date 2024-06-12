@@ -29,14 +29,15 @@
 
 <style>
   .section {
-    position: relative; /* Establece un contexto de posicionamiento */
-    background-image: url("/images/background.jpg");
+    position: relative;
+    background-image: url("/images/background.png");
     background-position: center center;
     width: 100%;
     height: 100%;
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #FCDE69;
   }
 
   .custom-sub {
