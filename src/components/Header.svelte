@@ -56,7 +56,7 @@
 
   .middle-container {
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;

@@ -6,7 +6,7 @@
 <main>
   <div class="slider-container">
     <div class="slider">
-      <div class="slide">{title}</div>
+      <h1 class="slide">{title}</h1>
     </div>
   </div>
 </main>
@@ -14,7 +14,6 @@
 <style>
   .slider-container {
     width: 100%;
-    overflow: hidden;
   }
 
   .slider {
@@ -23,7 +22,7 @@
 
   .slide {
     font-style: bold;
-    color: rgba(255, 255, 255, 0.233);
+    color: rgba(255, 255, 255, 0.5);
     display: inline-block;
     font-size: 15vw; /* Ajusta el tamaño del texto según sea necesario */
     padding-right: 20px; /* Espaciado entre el final del texto y el comienzo del mismo */

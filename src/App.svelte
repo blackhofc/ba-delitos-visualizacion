@@ -45,8 +45,9 @@
     }
   }
 
-  function scrollToSection(index) {
-    const sectionElement = document.querySelectorAll(".step_foreground")[index];
+  function scrollToSection(pos) {
+    const sectionElement = document.querySelectorAll(".step_foreground")[pos];
+    console.log({ key: 'scrollToSection', pos, sectionElement })
     if (sectionElement) {
       sectionElement.scrollIntoView({ behavior: "smooth" });
     }
@@ -69,7 +70,6 @@
 
     last_prog = progress;
 
-    console.log({ index });
     updateBackgroundColor();
 
     /* switch (index) {
@@ -137,7 +137,7 @@
       </section>
 
       <section class="step_foreground">
-        <CrimesByZone title={"teasdasddasadsadssdasadasdadsst"} />
+        <CrimesByZone title={"TEST Wrapper"} />
       </section>
 
       {#each sections as section}
